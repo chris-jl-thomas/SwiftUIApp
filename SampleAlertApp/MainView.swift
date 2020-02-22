@@ -10,6 +10,7 @@ import SwiftUI
 
 struct MainView: View {
     
+    // Adding in this, and
     @State var isEnabled = false
     
     var body: some View {
@@ -18,6 +19,7 @@ struct MainView: View {
                 Text("This is a Primary Button")
             }
             .buttonStyle(SecondaryButtonStyle())
+            // this caused the weird bug if...
             .disabled(isEnabled)
             
             Button(action: { self.isEnabled.toggle() }) {
