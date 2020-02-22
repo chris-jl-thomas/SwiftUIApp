@@ -12,7 +12,8 @@ struct MainView: View {
             Button(action: {}) {
                 Text("This is a Primary Button")
             }
-            .buttonStyle(SecondaryButtonStyle())
+            .buttonStyle(BrokenButtonStyle())
+//            .buttonStyle(WorkingButtonStyle())
         }
     }
 }

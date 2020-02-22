@@ -13,9 +13,9 @@
 		5024339823F1A85C00C46064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5024339723F1A85C00C46064 /* Assets.xcassets */; };
 		5024339B23F1A85C00C46064 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5024339A23F1A85C00C46064 /* Preview Assets.xcassets */; };
 		5024339E23F1A85C00C46064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5024339C23F1A85C00C46064 /* LaunchScreen.storyboard */; };
-		503800ED23FA711600F72E69 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503800EC23FA711600F72E69 /* PrimaryButtonStyle.swift */; };
 		503800F023FA74CA00F72E69 /* BasicViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503800EF23FA74CA00F72E69 /* BasicViewModifier.swift */; };
-		5098C0BB24011B640090C61E /* SecondaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5098C0BA24011B640090C61E /* SecondaryButtonStyle.swift */; };
+		5098C0BB24011B640090C61E /* BrokenButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5098C0BA24011B640090C61E /* BrokenButtonStyle.swift */; };
+		50C0BAD124013921005D25DF /* WorkingButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C0BAD024013921005D25DF /* WorkingButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		5024339A23F1A85C00C46064 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5024339D23F1A85C00C46064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5024339F23F1A85C00C46064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		503800EC23FA711600F72E69 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
 		503800EF23FA74CA00F72E69 /* BasicViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewModifier.swift; sourceTree = "<group>"; };
-		5098C0BA24011B640090C61E /* SecondaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButtonStyle.swift; sourceTree = "<group>"; };
+		5098C0BA24011B640090C61E /* BrokenButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenButtonStyle.swift; sourceTree = "<group>"; };
+		50C0BAD024013921005D25DF /* WorkingButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +70,8 @@
 				5024339F23F1A85C00C46064 /* Info.plist */,
 				5024339923F1A85C00C46064 /* Preview Content */,
 				503800EF23FA74CA00F72E69 /* BasicViewModifier.swift */,
-				503800EC23FA711600F72E69 /* PrimaryButtonStyle.swift */,
-				5098C0BA24011B640090C61E /* SecondaryButtonStyle.swift */,
+				5098C0BA24011B640090C61E /* BrokenButtonStyle.swift */,
+				50C0BAD024013921005D25DF /* WorkingButtonStyle.swift */,
 			);
 			path = SampleAlertApp;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				503800ED23FA711600F72E69 /* PrimaryButtonStyle.swift in Sources */,
 				5024339223F1A85900C46064 /* AppDelegate.swift in Sources */,
 				5024339423F1A85900C46064 /* SceneDelegate.swift in Sources */,
 				5024339623F1A85900C46064 /* MainView.swift in Sources */,
+				50C0BAD124013921005D25DF /* WorkingButtonStyle.swift in Sources */,
 				503800F023FA74CA00F72E69 /* BasicViewModifier.swift in Sources */,
-				5098C0BB24011B640090C61E /* SecondaryButtonStyle.swift in Sources */,
+				5098C0BB24011B640090C61E /* BrokenButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

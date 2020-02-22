@@ -4,12 +4,12 @@
 
 import SwiftUI
 
-struct SecondaryButtonStyle: ButtonStyle {
+struct WorkingButtonStyle: ButtonStyle {
     
     struct Content: View {
         
         let configuration: Configuration
-    
+        
         var label: some View {
             configuration.label
                 .frame(maxWidth: .infinity)
@@ -17,17 +17,16 @@ struct SecondaryButtonStyle: ButtonStyle {
         }
         
         var body: some View {
-            return Group {
-                if configuration.isPressed {
-                    label
-                        .foregroundColor(Color.black)
-                        .background(Color.gray)
-                } else {
-                    label
-                        .foregroundColor(Color.white)
-                        .background(Color.green)
-                }
+            if configuration.isPressed {
+                return label
+                    .foregroundColor(Color.black)
+                    .background(Color.gray)
+            } else {
+                return label
+                    .foregroundColor(Color.white)
+                    .background(Color.green)
             }
+            
         }
     }
     
