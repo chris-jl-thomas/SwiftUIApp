@@ -11,7 +11,7 @@ import SwiftUI
 struct MainView: View {
     
     // Adding in this, and
-    @State var isEnabled = false
+    //@State var isEnabled = false
     
     var body: some View {
         VStack {
@@ -20,12 +20,12 @@ struct MainView: View {
             }
             .buttonStyle(SecondaryButtonStyle())
             // this caused the weird bug if...
-            .disabled(isEnabled)
+            //.disabled(isEnabled)
             
-            Button(action: { self.isEnabled.toggle() }) {
-                Text("This is a Primary Button")
-            }
-            .buttonStyle(SecondaryButtonStyle())
+//            Button(action: { self.isEnabled.toggle() }) {
+//                Text("This is a Primary Button")
+//            }
+//            .buttonStyle(SecondaryButtonStyle())
         }
     }
 }
