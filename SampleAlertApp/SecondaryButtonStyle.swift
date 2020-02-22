@@ -6,7 +6,8 @@ import SwiftUI
 
 struct SecondaryButtonStyle: ButtonStyle {
     
-    private struct Content: View {
+    struct Content: View {
+        
         let configuration: Configuration
     
         var label: some View {
@@ -15,18 +16,12 @@ struct SecondaryButtonStyle: ButtonStyle {
                 .padding()
         }
         
-        @Environment(\.isEnabled) var isEnabled
         var body: some View {
-            // you do this
             return Group {
                 if configuration.isPressed {
                     label
                         .foregroundColor(Color.black)
                         .background(Color.gray)
-                } else if isEnabled {
-                    label
-                        .foregroundColor(Color.white)
-                        .background(Color.black)
                 } else {
                     label
                         .foregroundColor(Color.white)

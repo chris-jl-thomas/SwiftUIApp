@@ -39,22 +39,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E76EC0B5-D1BD-4E6A-BBBB-F9599A3DAF1C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SampleAlertApp/SecondaryButtonStyle.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "94EA9B98-1AC1-47FE-89E7-60B05F01C857"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -62,8 +46,8 @@
             filePath = "SampleAlertApp/SecondaryButtonStyle.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -78,8 +62,8 @@
             filePath = "SampleAlertApp/SecondaryButtonStyle.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
